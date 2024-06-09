@@ -13,6 +13,47 @@ header {
     padding: 20px;
     background-color: #1e1e1e;
 }
+.login-section {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-section h2 {
+    margin-bottom: 20px;
+}
+
+.login-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-section input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3e3e3e;
+    color: #ffffff;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #072fe2;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #575757;
+}
 
 .logo {
     font-size: 24px;
