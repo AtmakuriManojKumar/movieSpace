@@ -9,11 +9,26 @@
 <body>
     <header>
         <div class="logo">MovieSpace</div>
-        <div class="icons">
-            <img src="dis.png" alt="Discord">
-            <img src="pii.png" alt="Patreon">
-        </div>
+	<div class="icons">
+
+        <img src="dis.png" alt="Discord">
+        <img src="pii.png" alt="Patreon">
+    </div>
     </header>
+
+    <main>
+        <section class="login-section">
+            <form action="login_handler.php" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit" class="login-button">Login</button>
+		<pre>  </pre>
+		<a href="Register.html">Register</a>
+            </form>
+        </section>
+    </main>
 
     <main>
         <section class="highlighted">
